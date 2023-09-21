@@ -1,0 +1,133 @@
+/* Cambiar el color de fondo de toda la web */
+body {
+    background-color: #242222;
+}
+
+/* Cambiar el color de fondo de cada sección */
+header {
+    /* Cambia el color de fondo del encabezado */
+    background-color: #c3d4bb; 
+    /* Establecer el tipo de fuente del header a Arial */
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #837878; 
+}
+
+main {
+    background-color: #fff; 
+}
+
+section {
+    background-color: #eee;
+}
+
+/* Cambiar el tamaño de fuente del párrafo a 12px */
+p {
+    font-size: 12px;
+}
+
+/* NUEVOS CSS para la pagina */ 
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Barra lateral */
+aside {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para los enlaces de redes sociales */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 16px;
+}
+
