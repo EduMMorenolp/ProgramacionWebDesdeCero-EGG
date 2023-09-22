@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* NUEVOS CSS para la pagina */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  top: 0; /* Establece la posición superior fija */
+  width: 100%;
+  z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+#contacto ul li {
+  padding: 10px;
+  display: inline;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos para los enlaces de redes sociales */
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Estilos para el párrafo */
+p {
+  font-size: 16px;
+}
+
+/* Estilos para la barra lateral */
+#barralateral {
+  width: 50px; /* Ancho inicial */
+  height: 150px;
+  position: fixed;
+  top: 50%;
+  left: 5px;
+  overflow: hidden;
+  transition: width 0.3s;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#toggleBtn {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#contenidoLateral {
+  display: none; /* Oculta el contenido al principio */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 200px; /* Ancho cuando se muestra */
+  height: 100%;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#barralateral:hover {
+  width: 250px; /* Ancho cuando se muestra */
+}
+
+/* Mostrar contenido cuando se muestra la barra lateral */
+#barralateral:hover #contenidoLateral {
+  display: block;
+}
+
+#barralateral:hover #toggleBtn {
+  display: none;
+}
