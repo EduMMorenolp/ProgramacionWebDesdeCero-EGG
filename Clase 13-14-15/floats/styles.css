@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-color: #b3d4f1;
+  height: 100px;
+}
+
+.barra-lateral {
+  background-color: #ee9a9e;
+  height: 300px;
+  width: 10%;
+  float: left;
+}
+
+.contenido {
+  background-color: #f5cf8e;
+  height: 300px;
+  width: 70%;
+  float: left;
+}
+
+.pie {
+  clear: both;
+  background-color: #d5e8f9;
+  height: 200px;
+}
