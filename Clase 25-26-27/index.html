@@ -7,8 +7,10 @@
     <title>Clase 22-23-24</title>
     <!-- Linkeo del CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
     <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+
+
 </head>
 
 <body>
@@ -77,25 +79,27 @@
         </section>
 
         <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Contenido de la sección de contacto.</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/eduardo-m-moreno-programador/" target="_blank"><i
-                            class="fab fa-linkedin"></i>
-                        <span class="social-name" style="color: #0077B5;">LinkedIn</span></a></li>
-                <li><a href="https://github.com/EduMMorenolp" target="_blank"><i class="fab fa-github"></i>
-                        <span class="social-name" style="color: #211F1F;">GitHub</a></li>
-                <li><a href="https://www.instagram.com/edu.m.morenolp/" target="_blank"><i class="fab fa-instagram"></i>
-                        <span class="social-name" style="color: #E4405F;">Instagram</a></li>
-                <li><a href="https://twitter.com/EduMMorenolp" target="_blank"><i class="fab fa-twitter"></i>
-                        <span class="social-name" style="color: #1DA1F2;">Twitter</a></li></a>
-                <li><a href="https://discord.gg/BzU7nDbT" target="_blank"><i class="fab fa-discord"></i>
-                        <span class="social-name" style="color: #7289DA;">Discord</a></li></a>
-                <li><a href="https://www.youtube.com/@edummorenolp" target="_blank"><i class="fab fa-youtube"></i>
-                        <span class="social-name" style="color: #FF0000;">Youtube</a></li></a>
-                <li><a href="https://www.twitch.tv/edummorenolp" target="_blank"><i class="fab fa-twitch"></i>
-                        <span class="social-name" style="color: #9146FF;">Twitch</a></li></a>
-            </ul>
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="pepe@gmail.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
         </section>
     </main>
 
@@ -134,5 +138,6 @@
         </ul>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
