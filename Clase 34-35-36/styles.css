@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* Estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para todas las imágenes */
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px; /* Añade un redondeo a las imágenes */
+    border: 1px solid #ddd;
+}
+
+
