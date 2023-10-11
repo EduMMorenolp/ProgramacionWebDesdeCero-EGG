@@ -1,3 +1,8 @@
+# CERTIFICADO DEL CURSO 
+
+<img src="./Programación Web desde Cero.jpeg" alt="QR Cafecito" height="400" />
+<br/> 
+
 # Programacion Web Desde Cero - EGG
 
 Este repositorio es una invaluable fuente de recursos y referencias para los estudiantes del curso de Programación Web Desde Cero, ofrecido por EGG. Aquí encontrarás una colección de ejercicios, proyectos y material de apoyo que complementan el curso y te ayudarán a consolidar tus conocimientos en desarrollo web.
@@ -16,17 +21,21 @@ Este repositorio es una invaluable fuente de recursos y referencias para los est
 
 [![Puedes colaborar Clikeando en Donar](https://img.shields.io/badge/Clikeando%20aqui%20puedes%20colaborar%20-Donar-blue)](https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848810689e018813682e960130)
 
-### QR Cafecito 
+### QR Cafecito MercadoPago
 
-<img src="./QRCafecitoSolo.png" alt="QR Cafecito" style="object-fit: contain;"  />
-<br/>  
+<img src="./QRCafecitoSolo.png" alt="QR Cafecito" height="200" />
+
+### QR Cafecito PayPal
+
+<img src="./QRCafecitoPayPal.png" alt="QR Cafecito" height="200" />
+<br/>   
 
 ## Instrucciones de Uso
 
 1. Clona este repositorio en tu máquina local para acceder a todos los ejercicios y proyectos.
 2. Explora las carpetas y archivos para encontrar material relevante para tus necesidades de aprendizaje.
 3. Si tienes preguntas o sugerencias, no dudes en utilizar la sección de "Issues" para iniciar una conversación o reportar problemas.
-4. ¡Comparte tus propias soluciones y contribuciones para enriquecer la experiencia de aprendizaje de todos los estudiantes!
+4. ¡Comparte tus propias soluciones y contribuciones para enriquecer la experiencia de aprendizaje de todos los estudiantes! 
 
 ## Agradecimientos
 
